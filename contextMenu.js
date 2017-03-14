@@ -2,7 +2,7 @@ function search(string,q) {
 	var reg = /&/;
 	text = string.selectionText.replace(reg, "");
   chrome.tabs.create({  
-    url: "https://play.spotify.com/search/" + encodeURIComponent(text)
+    url: "https://play.spotify.com/search/results/" + encodeURIComponent(text)
   });           
 }
 

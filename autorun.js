@@ -90,7 +90,7 @@ function begin(){
 	text = text.replace(bracketB, "");
 	
 	if(eow!=null){
-		window.open("https://play.spotify.com/search/"+encodeURIComponent(text));
+		window.open("https://play.spotify.com/search/results/"+encodeURIComponent(text));
 	}
 	else{
 		console.log("[SpotifySearch] Nie wykryto obiektu eow-title");
